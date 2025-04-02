@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #121212, #2d2d2d);
+    color: #f1f1f1;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffcc00;
+    margin: 0;
+}
+
+h1 {
+    color:#25d366;
+}
+
+p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #ff5733, #f40c0c);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-bottom: 4px solid #ffcc00;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#portfolio {
+    padding: 60px 20px;
+}
+
+.work-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.work-item {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.work-item p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.work-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    background: #333;
+}
+
+.work-item:hover img {
+    transform: scale(1.05);
+}
+
+#contact {
+    background: #292929;
+    padding: 60px 20px;
+    margin-top: 60px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+    border-top: 4px solid #ffcc00;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background: #1da851;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #1f1f1f;
+    padding: 20px;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #ccc;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
